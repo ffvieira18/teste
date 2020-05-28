@@ -15,7 +15,7 @@ O CoRINs é capaz de mostrar algumas informações úteis para a análise das re
 
 * Standard deviation of degree of all comparisons
 
-(https://github.com/ffvieira18/teste/blob/master/Images/grafico1-standard-deviation-of-degree-of-all-comparisons.png)
+  ![alt text](https://github.com/ffvieira18/teste/blob/master/Images/grafico1-standard-deviation-of-degree-of-all-comparisons.png)
 
   A análise global consiste em um gráfico que representa a variação na formação de interações de todos os resíduos. O gráfico é construído a partir do desvio padrão de todos os valores de degrees dos aminoácidos equivalentes em posição, respeitando a condição da existência de 80% e ao menos dois degrees na posição referida.
 Este gráfico apresenta como eixo x, a posição do aminoácido e como eixo y, o desvio padrão com o seu resultado refletido negativamente para melhor visualização da variação do degree na posição referida. Também foram traçadas duas linhas guias, nos valores de desvio de padrão de 0.5 e 1.5, onde foram estabelecidos os critérios das cores dos pontos (Tabela). 
