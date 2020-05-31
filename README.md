@@ -49,12 +49,25 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
 
   Pode ser interessante para o usuário observar rapidamente quais os aminoácidos que mais variaram em degree. Para isso, o CoRINs gera um gráfico utilizando a biblioteca D3.js com as 10 maiores diferenças nos degrees da rede (Figura 12). Sendo o eixo x o Id do aminoácido e o eixo y o valor da diferença. Por exemplo, o aminoácido leucina da posição 168 da cadeia A, possui degree de valor 2 na RIN da proteína de PDB 1B55 e valor 6 na proteína de PDB 2z0P, portanto, possui uma diferença de 4 no degree deste aminoácido.   
 
+* Interactive Tables (Differences of Degrees, Differences in Aminoacid, Differences of Nodes, Differences of Edges, Graph parameters)
 
+  ![alt text]
 
+  Para melhor representação dos resultados, foram implementadas tabelas interativas com a biblioteca datatables (https://datatables.net/). Assim é possível verificar facilmente quais aminoácidos variam em Degree, troca de aminácidos, ausência ou presença de aminoácidos e coeficientes de clusterização e betweenness de cada aminoácido da rede. As tabelas também apresentam um campo Search para pesquisar por qualquer caractere ou palavra que esteja presente no Id do aminoácido e como resultado será mostrada apenas a lista de aminoácidos contendo a palavra pesquisada; O campo Show entries, onde é possível alterar o número de linhas do resultado e os botões para alterar a páginas do resultado.
 
+* Visualization of Difference RIN
 
+  ![alt text]
 
+  Para uma visualização geral da comparação, foi gerado um gráfico semelhante ao gráfico da visualização geral dos valores de degrees. Neste gráfico é possível observar por diferentes cores, as posições que se encontram com aminoácidos ausentes na cadeia, a presença exclusiva de um aminoácido em apenas uma das RINs, troca de aminoácidos em uma determinada posição e quantidade de diferenças nas interações químicas (Tabela). Devido ao número de posições, ou pelo fato dos ligantes e heteroátomos apresentarem posições muito elevadas. Assim, é sempre aconselhável marcar a opção para retirar os ligantes e heteroátomos pelo software RING 2.0. 
 
+  | Descrição       | Cor          | 
+  | ---------------- |:------------:|
+  | Aminoácido ausente na posição nas duas RINs  | Cinza         |
+  | Quantidade de diferenças nas interações químicas do aminoácido daquela posição    | Escala de laranja-rosado       | 
+  | Aminoácido presente apenas na RIN 1           | Azul Escuro     |   
+  | Aminoácido presente apenas na RIN 2           | Azul Claro   |  
+  | Posição em que ocorreu troca de aminoácido           | Vermelho     |  
 
 # Installing
 
