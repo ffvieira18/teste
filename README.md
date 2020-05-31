@@ -78,3 +78,15 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
 
 # Installing
 
+```
+Install Anaconda with Python 3.6 <https://www.anaconda.com/>
+```
+```
+Install R Language (https://www.r-project.org/)
+```
+```
+Install Django <python -m pip install Django>
+```
+```
+Install Wamp or Xampp <Some modules require PHP>
+```
