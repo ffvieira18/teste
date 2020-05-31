@@ -2,7 +2,10 @@
 O CoRINs é uma ferramenta Web de comparação de múltiplos arquivos provenientes de redes de interação de resíduos do software RING 2.0 (https://protein.bio.unipd.it/ring/) gerando resultados de fácil compreensão através de tabelas, gráficos interativos e arquivos de texto. Desenvolvida em linguagem Python com bibliotecas de alta performance como Pandas (https://pandas.pydata.org/), Numpy (https://numpy.org) e Matplotlib (https://matplotlib.org/), juntamente com os frameworks de desenvolvimento Web Django (www.djangoproject.com/), Bootstrap (https://getbootstrap.com/), D3.js (https://d3js.org/) e um módulo de geração de parâmetros de grafos (betweness e coeficiente de clusterização) desenvolvido em linguagem R (https://www.r-project.org/).
 
 ### Autores: 
-Felipe Vieira da Fonseca (Author, Data Scientist), Thiago Dantas Soares (Web Developer, Technical Support), Diego Morais (R Developer <betweness e coeficiente de clusterização script>), João Paulo Matos Santos Lima (Coordinator, Author, Maintainer).
+ - Felipe Vieira da Fonseca (Author, Data Scientist)
+ - Thiago Dantas Soares (Web Developer, Technical Support)
+ - Diego Morais (R Developer <betweness e coeficiente de clusterização script>)
+ - João Paulo Matos Santos Lima (Coordinator, Author, Maintainer).
 
 ### Citation: 
 https://www.biorxiv.org/------------
