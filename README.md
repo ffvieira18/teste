@@ -88,5 +88,5 @@ Install R Language (https://www.r-project.org/)
 Install Django <python -m pip install Django>
 ```
 ```
-Install Wamp or Xampp <Some modules require PHP and server>
+Install Wamp or Xampp <Some modules require PHP and local server>
 ```
