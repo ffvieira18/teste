@@ -74,10 +74,6 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
 
 # Installing
 
-
 ```js
 teste
 ```
-<a href="#interpolateOrRd" name="interpolateOrRd">#</a> d3.<b>interpolateOrRd</b>(*t*) [<>](https://github.com/d3/d3-scale-chromatic/blob/master/src/sequential-multi/OrRd.js "Source")
-<br><a href="#schemeOrRd" name="schemeOrRd">#</a> d3.<b>schemeOrRd</b>[*k*]
-<img src="https://raw.githubusercontent.com/d3/d3-scale-chromatic/master/img/OrRd.png" width="100%" height="40" alt="OrRd">
