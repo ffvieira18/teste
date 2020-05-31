@@ -40,7 +40,10 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
   ![alt text](https://github.com/ffvieira18/teste/blob/master/Images/grafico3-High-number-degree.png)
   
   Para melhor visualização dos valores de degree, o CoRINs gera dois gráficos no formato de heatmap, um para cada RIN da comparação, com o objetivo de trazer uma visualização ampla dos degrees de cada aminoácido na RIN e orientar o usuário sobre quais os resíduos de degrees mais altos ou com diferenças mais altas em seus valores.
-  Ao passar com o mouse no heatmap, é mostrado o Id do aminoácido, composto pela cadeia, posição e a sigla do nome do aminoácido, como também o seu valor de degree. A escala de coloração desse gráfico depende do valor associado ao degree daquela posição, do mais claro, próximo ao branco, a inexistência de aminoácido na posição, até uma coloração mais escura, até o vermelho, para os degrees mais altos.
+  Ao passar com o mouse no heatmap, é mostrado o Id do aminoácido, composto pela cadeia, posição e a sigla do nome do aminoácido, como também o seu valor de degree. A escala de coloração desse gráfico depende do valor associado ao degree daquela posição (Imagem), do mais claro, próximo ao branco, a inexistência de aminoácido na posição, até uma coloração mais escura, até o vermelho, para os degrees mais altos.
+
+  <img src="https://raw.githubusercontent.com/d3/d3-scale-chromatic/master/img/OrRd.png" width="100%" height="40" alt="OrRd">
+  
   Com o objetivo de facilitar a visualização, o eixo x é representado pelo número da primeira posição do aminoácido da linha e o eixo y por uma sequência de números de 0 até um determinado número, equivalente a raiz quadrada do total de aminoácidos. Como exemplo, para localizar o aminoácido da posição 124, podemos nos orientar pela linha de um número de posição próximo, como a linha de valor 121 e realizar a soma com um número equivalente do eixo y em que o resultado seja 124, no caso o valor 3.
 
 * High number degree difference
