@@ -9,6 +9,7 @@ https://www.biorxiv.org/------------
 
 # How does it work?
 A entrada dos dados do CoRINs consiste nos arquivos nodes.txt e edge.txt ou sua forma compactada gerada pela versão web do RING 2.0 (https://protein.bio.unipd.it/ring/), de cada RIN a ser comparada. Os nodes e edges são convertidos em dataframes, separados por cadeias proteicas e comparados um a um de acordo com a posição dos aminoácidos e das diferentes cadeias das proteínas. Assim são obtidos os resultados de acordo com a comparação dois a dois de cada cadeia para cada proteína, incluindo a comparação entre as cadeias de uma mesma proteína.
+A partir da tela inicial do CoRINs, é possível efetuar o carregamento de todas as RINs a serem comparadas usando o botão Load, que abrirá um gerenciador de arquivos de acordo com o sistema operacional utilizado. Após todas as proteínas serem carregadas no CoRINs, os resultados são gerados e organizados por comparação e os dados são mostrados em gráficos e tabelas, conforme o tipo de análise. 
 
 # Interpreting Results
 O CoRINs é capaz de mostrar algumas informações úteis para a análise das redes, de forma global, ou seja, uma comparação entre todos as RINs carregadas e local, comparando as RINs cadeia a cadeia.
