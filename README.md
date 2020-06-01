@@ -78,17 +78,27 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
 
 # Installing
 
+Install Anaconda and set up the environment
 ```
 Install Anaconda with Python 3.6 <https://www.anaconda.com/>
 ```
+Or Install Python <minimum version 3.6>, Pandas and Numpy [easy way]
 ```
-Install R Language (https://www.r-project.org/)
+<https://www.python.org/>
+<python -m pip install pandas>
+<python -m pip install numpy>
 ```
+Install R Language
 ```
-Install Django <python -m pip install Django>
+<https://www.r-project.org/>
+```
+Install Django Framework, Rest Framework and Django-cors-headers
+```
+<python -m pip install Django>
 <pip install djangorestframework>
 <python -m pip install django-cors-headers>
 ```
+Some modules require PHP and local server
 ```
-Install Wamp or Xampp <Some modules require PHP and local server>
+Install Wamp or Xampp or Lamp
 ```
