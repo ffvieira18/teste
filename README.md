@@ -82,11 +82,12 @@ Install Anaconda and set up the environment
 ```
 Install Anaconda with Python 3.6 <https://www.anaconda.com/>
 ```
-Or Install Python <minimum version 3.6>, Pandas and Numpy [easy way]
+Or Install Python <minimum version 3.6>, Pandas, Numpy and Matplotlib [easy way]
 ```
 <https://www.python.org/>
 <python -m pip install pandas>
 <python -m pip install numpy>
+<python -m pip install matplotlib>
 ```
 Install R Language
 ```
