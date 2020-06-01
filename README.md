@@ -85,7 +85,9 @@ Install Anaconda with Python 3.6 <https://www.anaconda.com/>
 Install R Language (https://www.r-project.org/)
 ```
 ```
-Install Django <python -m pip install Django> and <pip install djangorestframework>
+Install Django <python -m pip install Django>
+<pip install djangorestframework>
+<python -m pip install django-cors-headers>
 ```
 ```
 Install Wamp or Xampp <Some modules require PHP and local server>
