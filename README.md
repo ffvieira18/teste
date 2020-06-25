@@ -76,30 +76,17 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
   | Aminoácido presente apenas na RIN 2           | Azul Claro   |  
   | Posição em que ocorreu troca de aminoácido           | Vermelho     |  
 
-# Installing
+# Installing on Windows or Linux
 
-Install Anaconda and set up the environment
+Install Docker
 ```
-Install Anaconda with Python 3.6 <https://www.anaconda.com/>
+<https://www.docker.com//>
 ```
-Or Install Python <minimum version 3.6>, Pandas, Numpy and Matplotlib [easy way]
+Open CMD, enter the project folder and execute docker build command
 ```
-<https://www.python.org/>
-<python -m pip install pandas>
-<python -m pip install numpy>
-<python -m pip install matplotlib>
+<docker-compose build>
 ```
-Install R Language
+Type the command to run the application
 ```
-<https://www.r-project.org/>
-```
-Install Django Framework, Rest Framework and Django-cors-headers
-```
-<python -m pip install Django>
-<pip install djangorestframework>
-<python -m pip install django-cors-headers>
-```
-Some modules require PHP and local server
-```
-Install Wamp or Xampp or Lamp
+<docker-compose up>
 ```
