@@ -76,11 +76,31 @@ O eixo x apresenta o tipo de interação e o eixo y, o número total de interaç
   | Aminoácido presente apenas na RIN 2           | Azul Claro   |  
   | Posição em que ocorreu troca de aminoácido           | Vermelho     |  
 
-# Installing on Windows or Linux
+# Installing on Windows
 
 Install Docker
 ```
-<https://www.docker.com//>
+<https://www.docker.com/>
+```
+Open CMD, enter the project folder and execute docker build command
+```
+<docker-compose build>
+```
+Type the command to run the application
+```
+<docker-compose up>
+```
+# Installing on Linux
+
+Install Docker
+```
+<sudo apt-get install -y docker.io>
+```
+Install Docker-Compose
+```
+<sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose>
+<sudo chmod +x /usr/local/bin/docker-compose>
+<sudo usermod -aG docker "$USER">
 ```
 Open CMD, enter the project folder and execute docker build command
 ```
